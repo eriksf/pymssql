@@ -477,9 +477,8 @@ setup(
       "Operating System :: Unix",
     ],
     zip_safe = False,
-    setup_requires=['setuptools_git'],
+    setup_requires=['setuptools_git', 'Cython>=0.19.1'],
     tests_require=['pytest', 'unittest2'],
-    install_requires=['cython'],
     ext_modules = ext_modules(),
 
 )
