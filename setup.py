@@ -479,6 +479,7 @@ setup(
     zip_safe = False,
     setup_requires=['setuptools_git'],
     tests_require=['pytest', 'unittest2'],
+    install_requires=['cython'],
     ext_modules = ext_modules(),
 
 )
